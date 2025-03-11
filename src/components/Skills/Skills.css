@@ -1,0 +1,85 @@
+.skills{
+    display: flex;
+    align-items: center;
+    padding: 5rem 0;
+    background-color: var(--bg-color);
+}
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills-head{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--second-font-family);
+    color: var(--font-color);
+    position: relative;
+    animation: skillsheadanimate both;
+    animation-timeline: view(70% 0%);
+}
+
+@keyframes skillsheadanimate{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+        scale: 0.4;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.skills-head::before{
+    position: absolute;
+    bottom: -8px;
+    height: 4px;
+    width: 100%;
+    background-color: var(--font-color);
+    border-radius: 5px;
+    content: "";
+}
+
+.skills-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    animation: animateskills both;
+    animation-timeline: view(70% 0%);
+}
+
+@keyframes animateskills{
+    0%{
+        transform: translateX(-20px);
+        scale: 0.4;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.skill-name{
+    size: 1rem;
+    font-weight: 800;
+    color: var(--font-color);
+    font-family: var(--third-font-family);
+}

@@ -1,0 +1,51 @@
+.contact{
+    background-color: var(--bg-color);
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-p{
+    font-family: var(--second-font-family);
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: center;
+    animation: animatecontact both;
+    animation-timeline: view(70% 0%);
+}
+
+@keyframes animatecontact{
+    0%{
+        opacity: 0;
+        scale: 0.4;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0px);
+    }
+}
+
+.contact-now{
+    text-decoration: none;
+    padding: 10px 0;
+    font-family: var(--third-font-family);
+    font-weight: 800;
+    color: var(--secondary-color);
+    width: 160px;
+    border-radius: 30px;
+    border: 2px solid var(--secondary-color);
+    display: inline-block;
+    text-align: center;
+    transition: 0.4s ease;
+    animation: animatecontact both;
+    animation-timeline: view(70% 0%);
+}
+
+.contact-now:hover{
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+}

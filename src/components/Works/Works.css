@@ -1,0 +1,231 @@
+.works {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 5rem 0;
+}
+
+.work-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-head{
+    text-align: center;
+    font-family: var(--second-font-family);
+    font-size: 2rem;
+    color: var(--font-color);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+    animation: projectheadanimate both;
+    animation-timeline: view(70% 0%);
+}
+
+@keyframes projectheadanimate{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+        scale: 0.4;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        scale: 1;
+
+    }
+}
+
+.project-head::before{
+    position: absolute;
+    content: "";
+    bottom: -7px;
+    height: 4px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--font-color);
+}
+
+.project-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+}
+
+.p-image{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: block;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.project-1::before{
+    position: absolute;
+    content: "E-Commerce Website";
+    inset: 0;
+    background-color: #0d1117a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--second-font-family);
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--bg-color);
+    z-index: 100;
+    transition: 0.4s ease;
+    scale: 0;
+    color: var(--primary-color);
+}
+
+.project-1:hover::before{
+    /* visibility: visible; */
+    scale: 1;
+}
+
+.project-2::before{
+    position: absolute;
+    content: "Portfolio Clone";
+    inset: 0;
+    background-color: #0d1117a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--second-font-family);
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--bg-color);
+    z-index: 100;
+    transition: 0.4s ease;
+    scale: 0;
+    color: var(--primary-color);
+}
+
+.project-2:hover::before{
+    /* visibility: visible; */
+    scale: 1;
+}
+
+
+.project-card:hover .p-image{
+    scale: 1.06;
+}
+
+.project-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.project-card{
+    background-color: transparent;
+    border-radius: 30px;
+    /* box-shadow: 0px 0px 10px 4px #c9d1d9; */
+    margin-top: 3rem;
+    transition: 0.4s ease;
+    animation: cardanimation both;
+    animation-timeline: view(70% 0%);
+}
+
+@keyframes cardanimation{
+    0%{
+        opacity: 0;
+        scale: 0.6;
+    }
+
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.project-card:hover{
+    box-shadow: 0px 0px 10px 8px #58A6FF;
+    scale: 1.01;
+
+}
+
+.project-card:hover .project-card-h3{
+    color: var(--primary-color);
+}
+
+.project-card-h3{
+    font-family: var(--second-font-family);
+    color: var(--font-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    transition: 0.4s ease;
+}
+
+.project-card-p{
+    font-family: var(--third-font-family);
+    color: var(--font-color);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.live-demo-button{
+    font-family: var(--third-font-family);
+    color: var(--font-color);
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 10px 0;
+    width: 120px;
+    border: 2px solid var(--secondary-color);
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+.live-demo-button:hover{
+    background-color: var(--secondary-color);
+}
+
+.git-repo-button{
+    font-family: var(--third-font-family);
+    color: var(--font-color);
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 10px 0;
+    width: 120px;
+    border: 2px solid var(--secondary-color);
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+.git-repo-button:hover{
+    background-color: var(--secondary-color);
+}
+
+
+.project-buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project-text{
+    padding: 1.3rem;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left: 1px solid var(--primary-color);
+    border-right: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    /* background-color: #191c21; */
+}

@@ -1,0 +1,15 @@
+:root {
+  --first-font-family: 'Montserrat', sans-serif;
+  --second-font-family: 'Poppins', sans-serif;
+  --third-font-family: 'Inter', sans-serif;
+  --bg-color: #0D1117;
+  --font-color: #C9D1D9;
+  --primary-color: #58A6FF;
+  --secondary-color: #F778BA;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
