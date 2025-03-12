@@ -1,7 +1,7 @@
 .works {
     display: flex;
     align-items: center;
-    background-color: var(--bg-color);
+    background-color: transparent;
     padding: 5rem 0;
 }
 

@@ -1,0 +1,100 @@
+.contactpage{
+    background-color: #0d1117;
+    background-image: url("../../assets/Images/pattern-randomized.svg");
+    background-size: cover;
+    height: 100%;
+    padding: 5rem 0;
+}
+
+.contactpage-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-form-head{
+    font-family: var(--second-font-family);
+    font-size: 2rem;
+    color: var(--font-color);
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.contactpage-container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-input{
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    box-shadow: 0 10px 20px 0 rgba(7, 7, 26, 0.15);
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    display: block;
+    margin-bottom: 20px;
+    font-family: var(--third-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 143%;
+    color: var(--font-color);
+}
+
+.contact-input::placeholder{
+    font-family: var(--third-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 143%;
+    color: var(--font-color);
+}
+
+.contact-textarea{
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 10px 20px 0 rgba(7, 7, 26, 0.15);
+    background: rgba(255, 255, 255, 0.3);
+    resize: none;
+    font-family: var(--third-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 143%;
+    color: var(--font-color);
+}
+
+.contact-textarea::placeholder{
+    font-family: var(--third-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 143%;
+    color: var(--font-color);
+}
+
+.submit-button{
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    height: 40px;
+    box-shadow: 0 10px 20px 0 rgba(7, 7, 26, 0.15);
+    background: linear-gradient(168deg, #F778BA  0%, #58A6FF 100%);
+    font-family: var(--third-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 143%;
+    color: var(--font-color);
+    border: none;
+    display: inline-block;
+    margin-top: 20px;
+}

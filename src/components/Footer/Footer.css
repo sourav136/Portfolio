@@ -15,6 +15,7 @@
     color: var(--font-color);
     font-weight: 500;
     font-size: 0.8rem;
+    text-align: center;
 }
 
 .social-container{
@@ -45,5 +46,9 @@
 .social-icon{
     font-size: 1.5rem;
     color: var(--font-color);
+    transition: 0.4s ease;
+}
 
+.social-icon-container:hover .social-icon{
+    color: var(--secondary-color);
 }

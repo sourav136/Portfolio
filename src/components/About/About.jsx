@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <div className="about">
                 <div className="container">
-                    <div className="about-container mx-auto">
+                    <div className="about-container animated-about mx-auto">
                         <h2 className='about-h2 animated-about'>About Me</h2>
                         <p className='about-p animated-about'>"Hey, I’m Sourav Barua, a passionate <span>frontend developer</span> with a strong foundation in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>React</span>. I love crafting <span>clean</span>, <span>responsive</span>, and <span>user-friendly</span> web applications. My goal is to continuously improve my skills and build impactful digital experiences.
 
