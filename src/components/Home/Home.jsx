@@ -14,7 +14,7 @@ const Home = () => {
                             <h2 className='home-h2'>Passionate <p className='home-p'>Frontend Developer</p> crafting modern, responsive, and user-friendly web applications with <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>React</span>.</h2>
                             <div className="buttons">
                                 <Link className='contact-button' to="/contact">Contact Me</Link>
-                                <a className='resume-button' href="">Download Resume</a>
+                                <a className='resume-button' href="https://drive.google.com/uc?export=download&id=1jXlUejp6iv-4KvhG2qmnsWb06EKE5Y76">Download Resume</a>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 home-image-container">
