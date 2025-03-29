@@ -14,11 +14,11 @@ const Nav = () => {
             <div className="navbar-container">
                 <div className="nav">
                     <div className="nav-container">
-                        <Link to="/" className="navbar-link"><FaHome className={`nav-icon ${location.pathname === '/' ? 'active' : ''}`}/></Link>
-                        <Link to="/about" className='navbar-link'><FaUser className={`nav-icon ${location.pathname === '/about' ? 'active' : ''}`}/></Link>
+                        <Link alt='Go to Home section' to="/" className="navbar-link"><FaHome className={`nav-icon ${location.pathname === '/' ? 'active' : ''}`}/></Link>
+                        <Link alt='Learn more about me' to="/about" className='navbar-link'><FaUser className={`nav-icon ${location.pathname === '/about' ? 'active' : ''}`}/></Link>
                         <img src={Logo} className='logo-main' alt="" />
-                        <Link to="/contact" className='navbar-link'><GrContact  className={`nav-icon ${location.pathname === '/contact' ? 'active' : ''}`}/></Link>
-                        <Link to="/works" className='navbar-link'><FaFolderOpen className={`nav-icon ${location.pathname === '/works' ? 'active' : ''}`}/></Link>
+                        <Link alt='Contact me' to="/contact" className='navbar-link'><GrContact  className={`nav-icon ${location.pathname === '/contact' ? 'active' : ''}`}/></Link>
+                        <Link alt='View my projects' to="/works" className='navbar-link'><FaFolderOpen className={`nav-icon ${location.pathname === '/works' ? 'active' : ''}`}/></Link>
                     </div>
                 </div>
             </div>

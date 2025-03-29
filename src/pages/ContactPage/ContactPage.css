@@ -93,8 +93,21 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 143%;
-    color: var(--font-color);
+    color: #fff;
     border: none;
     display: inline-block;
     margin-top: 20px;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+  
