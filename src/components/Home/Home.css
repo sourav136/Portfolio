@@ -5,6 +5,7 @@
     overflow: hidden;
     background-color: transparent;
     height: max-content;
+    min-height: 100vh;
 }
 
 .home-container{
