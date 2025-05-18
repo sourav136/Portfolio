@@ -1,17 +1,15 @@
 .home{
-    display: flex;
-    align-items: center;
-    padding: 5rem 0;
+
+    /* height: max-content; */
     overflow: hidden;
-    background-color: transparent;
-    height: max-content;
-    min-height: 100vh;
 }
 
 .home-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    margin: 5rem 0;
 }
 
 .home-h1{
