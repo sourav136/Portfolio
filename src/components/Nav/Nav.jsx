@@ -1,10 +1,8 @@
 import React from 'react';
 import './Nav.css'
 import { Link, useLocation } from 'react-router-dom';
-import { FaHome } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
+import { FaHome, FaUser, FaFolderOpen } from "react-icons/fa";
 import { GrContact } from "react-icons/gr";
-import { FaFolderOpen } from "react-icons/fa";
 import Logo from '../../assets/Images/Logo.png'
 
 const Nav = () => {

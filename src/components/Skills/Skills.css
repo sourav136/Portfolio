@@ -52,21 +52,6 @@
     flex-wrap: wrap;
     gap: 40px;
     width: 100%;
-    animation: animateskills both;
-    animation-timeline: view(70% 0%);
-}
-
-@keyframes animateskills{
-    0%{
-        transform: translateX(-20px);
-        scale: 0.4;
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0px);
-        scale: 1;
-        opacity: 1;
-    }
 }
 
 .skill{
@@ -82,4 +67,27 @@
     font-weight: 800;
     color: var(--font-color);
     font-family: var(--third-font-family);
+    animation: animateskills both;
+    animation-timeline: view(70% 0%);
+}
+
+.s-image{
+    height: 119px;
+    width: 119px;
+    display: block;
+    animation: animateskills both;
+    animation-timeline: view(70% 0%);
+}
+
+@keyframes animateskills{
+    0%{
+        transform: translateX(-20px);
+        scale: 0.4;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        scale: 1;
+        opacity: 1;
+    }
 }

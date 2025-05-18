@@ -1,6 +1,4 @@
 .home{
-
-    /* height: max-content; */
     overflow: hidden;
 }
 
@@ -8,8 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    margin: 5rem 0;
+}
+
+.home-row{
+    padding: 5rem 0;
 }
 
 .home-h1{
@@ -51,11 +51,7 @@
 }
 
 .home-text-container{
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    padding: 0 1rem;
     animation: animatehometext ease 1.5s 1;
 }
 

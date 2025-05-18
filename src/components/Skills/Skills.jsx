@@ -17,7 +17,7 @@ const Skills = () => {
                     <div className="skills-display mt-5">
                         <div className="skill">
                             <div className="skill-image">
-                                <img className='s-image' src={Skill1} alt="" />
+                                <img className='s-image' loading="lazy" src={Skill1} alt="" />
                             </div>
                             <div className="skill-text mt-3">
                                 <p className='skill-name'>HTML</p>
@@ -25,7 +25,7 @@ const Skills = () => {
                         </div>
                         <div className="skill">
                             <div className="skill-image">
-                                <img className='s-image' src={Skill2} alt="" />
+                                <img className='s-image' loading="lazy" src={Skill2} alt="" />
                             </div>
                             <div className="skill-text mt-3">
                                 <p className='skill-name'>CSS</p>
@@ -33,7 +33,7 @@ const Skills = () => {
                         </div>
                         <div className="skill">
                             <div className="skill-image">
-                                <img className='s-image' src={Skill3} alt="" />
+                                <img className='s-image' loading="lazy" src={Skill3} alt="" />
                             </div>
                             <div className="skill-text mt-3">
                                 <p className='skill-name'>Bootstrap</p>
@@ -41,7 +41,7 @@ const Skills = () => {
                         </div>
                         <div className="skill">
                             <div className="skill-image">
-                                <img className='s-image' src={Skill4} alt="" />
+                                <img className='s-image' loading="lazy" src={Skill4} alt="" />
                             </div>
                             <div className="skill-text mt-3">
                                 <p className='skill-name'>Javascript</p>
@@ -49,7 +49,7 @@ const Skills = () => {
                         </div>
                         <div className="skill">
                             <div className="skill-image">
-                                <img className='s-image' src={Skill5} alt="" />
+                                <img className='s-image' loading="lazy" src={Skill5} alt="" />
                             </div>
                             <div className="skill-text mt-3">
                                 <p className='skill-name'>React</p>
@@ -57,7 +57,7 @@ const Skills = () => {
                         </div>
                         <div className="skill">
                             <div className="skill-image">
-                                <img className='s-image' src={Skill6} alt="" />
+                                <img className='s-image' loading="lazy" src={Skill6} alt="" />
                             </div>
                             <div className="skill-text mt-3">
                                 <p className='skill-name'>Git</p>
@@ -65,7 +65,7 @@ const Skills = () => {
                         </div>
                         <div className="skill">
                             <div className="skill-image">
-                                <img className='s-image' src={Skill7} alt="" />
+                                <img className='s-image' loading="lazy" src={Skill7} alt="" />
                             </div>
                             <div className="skill-text mt-3">
                                 <p className='skill-name'>Github</p>
